@@ -1,0 +1,111 @@
+.productos {
+    margin-top: 10px;
+
+    h2 {
+        color: $dark-text-color;
+        font-size: 2rem;
+        text-align: center;
+        background-color: $main-bg-color;
+        border-radius: 10px;
+        padding: 10px;
+        animation: cambioFondo 2s infinite;
+    }
+
+    @keyframes cambioFondo {
+        0% {
+            background-color: $main-bg-color;
+        }
+        50% {
+            background-color: $hover-bg-color; 
+        }
+        100% {
+            background-color: $main-bg-color; 
+        }
+    }
+    
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .product-card {
+        background: rgb(210, 238, 230);
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        width: calc(33.333% - 40px);
+        box-sizing: border-box;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid $border-color;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: $dark-text-color;
+        }
+
+        p {
+            margin: 10px 0;
+            color: $text-color;
+        }
+
+        .price {
+            font-weight: bold;
+            color: rgb(0, 128, 0);
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: $hover-bg-color;
+            color: rgb(255, 255, 255);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: rgba(221, 88, 88, 0.9);
+            }
+        }
+    }
+}
+
+/*ASIDE*/
+.aside-products {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    background: rgb(230, 230, 230);
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

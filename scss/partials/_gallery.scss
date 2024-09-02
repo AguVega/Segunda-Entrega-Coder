@@ -1,0 +1,44 @@
+.FondoFerre {
+    background-image: url(../imagenes/FondosPaginas/FondoFerre.jpg);
+}
+
+.gallery {
+    padding: 20px;
+    background-image: url(../imagenes/FondosPaginas/FondoFerre.jpg);
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: $dark-text-color;
+        background-color: $main-bg-color;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 10px;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .descriptionG {
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        color: $dark-text-color;
+        text-align: center;
+        background-color: $main-bg-color;
+        border-radius: 8px;
+    }
+}

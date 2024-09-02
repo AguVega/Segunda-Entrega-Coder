@@ -1,0 +1,16 @@
+.hero {
+    text-align: center;
+    background-color: $main-bg-color;
+    border-radius: 10px;
+    padding: 10px 0;
+
+    h2 {
+        margin: 0 0 20px;
+        color: $dark-text-color;
+    }
+
+    p {
+        color: black;
+        font-size: 1.2rem;
+    }
+}

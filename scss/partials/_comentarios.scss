@@ -1,0 +1,76 @@
+// styles.scss
+
+.comment-section {
+    padding: 2rem;
+    background-color: $main-bg-color;
+    border-radius: 8px;
+    margin-top: 2rem;
+
+    .comment-header {
+        margin-bottom: 1rem;
+
+        h2 {
+            font-size: 1.5rem;
+            color: $text-color;
+            text-align: center;
+        }
+    }
+
+    .comment-form {
+        margin-bottom: 2rem;
+        
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto;
+
+            label {
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+            }
+
+            input,
+            textarea {
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 1rem;
+            }
+
+            button {
+                background-color: rgb(0, 123, 255);
+                color: $border-color;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 4px;
+                font-size: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(0, 86, 179);
+                }
+            }
+        }
+    }
+
+    .comment-list {
+        .comment-item {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+
+            p {
+                margin: 0;
+            }
+
+            strong {
+                color: $text-color;
+            }
+        }
+    }
+}

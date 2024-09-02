@@ -1,0 +1,63 @@
+header {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+        url(../imagenes/fondo.jpg);
+    background-size: cover;
+    color: $dark-text-color;
+    padding: 20px 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    &.FondoBulon {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoBulon.jpg);
+    }
+
+    &.FondoMadera {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoMadera.jpg);
+    }
+
+    &.ConstruccionFondo {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoConstruccion.jpg);
+    }
+
+    &.ElectroFondo {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoElectrico.jpg);
+    }
+
+    &.FondoGas {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoGas.jpg);
+    }
+
+    &.SanitariosFondo {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+            url(../imagenes/FondosPaginas/FondoSanitario4.jpg);
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(210, 238, 230, 0.573);
+    border-radius: 10px;
+}

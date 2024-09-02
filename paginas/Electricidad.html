@@ -6,7 +6,7 @@
     <title>Don Ramón Ferretería y Bulonería</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../estilos.css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="ElectroFondo">
     <header class="ElectroFondo">
@@ -20,25 +20,24 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Electricidad</a></li>
                             <li><a href="./Carpinteria.html">Carpinteria</a></li>
-                            <li><a href="#producto3">Sanitarios</a></li>
-                            <li><a href="#producto4">Gas</a></li>
-                            <li><a href="#producto5">Construcción</a></li>
-                            <li><a href="#producto6">Buloneria</a></li>
+                            <li><a href="./Sanitarios.html">Sanitarios</a></li>
+                            <li><a href="./Gas.html">Gas</a></li>
+                            <li><a href="./Construccion.html">Construcción</a></li>
+                            <li><a href="./Bulonera.html">Buloneria</a></li>
                             <!-- Añadir más productos si es necesario -->
                         </ul>
                     </li>
-                    <li><a href="./cotizaciones.html">Cotizaciones</a></li>
                     <li><a href="./nosotros.html">Nosotros</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main class="ElectroFondo">
-        <section id="productos-electricos">
+    <main class="productos">
+        <section class="productos-titulo">
             <div class="container">
-                <h2>Productos Eléctricos</h2>
+                <h2>Electricidad</h2>
                 <div class="search-container">
-                    <input type="text" id="search" placeholder="Buscar productos...">
+                    <input type="text" class="search" placeholder="Buscar productos...">
                 </div>
                 <div class="product-grid">
                     <div class="product-card">
@@ -181,21 +180,24 @@
                         <p class="price">$500.00</p>
                         <button>Añadir al carrito</button>
                     </div>
-                    <div class="product-card">
-                        <img src="../imagenes/Electricidad/TuboLed25W.jpg" alt="Tubo led de 25 watts">
-                        <h3>Tubo Led</h3>
-                        <p>25W</p>
-                        <p class="price">$200.00</p>
-                        <button>Añadir al carrito</button>
-                    </div>
                     <!-- Añadir más tarjetas de productos según sea necesario -->
                 </div>
             </div>
         </section>
     </main>    
-    <aside class="sidebar">
-        <h3>Alquiler de Hormigoneras</h3>
-        <img src="" alt="Maquina para mezclar material de construcción">
+    <aside class="aside-publicidad">
+        <div class="product-publi">
+            <img src="../imagenes/Publicidad/HormiPubli.jpg" alt="Hormigonera">
+            <p>Alquiler de Hormigoneras</p>
+        </div>
+        <div class="product-publi">
+            <img src="../imagenes/Publicidad/AlarguePubli.jpg" alt="Alargue">
+            <p>Armado de Alargues a medida</p>
+        </div>
+        <div class="product-publi">
+            <img src="../imagenes/Publicidad/CombiFlete.jpg" alt="Flete">
+            <p>Envios a Domicilio</p>
+        </div>
     </aside>
     <footer>
         <div class="container">
