@@ -1,1 +1,1 @@
-No he tenido tiempo de interiorizrme mucho en como se organiza y utiliza sass, estoy en proceso! Tamien tengo que reenombrar y agregas mas variables y darles mas utilidad.
+Por cuestiones laborales, no he tenido tiempo de interiorizrme mucho en como se organiza y utiliza sass, estoy en proceso! Tambien tengo que reenombrar y agregas mas variables y darles mas utilidad. Agradezco cualquier sugerencia para agrupar y reorganizar los partials.
